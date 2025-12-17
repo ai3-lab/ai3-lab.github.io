@@ -28,14 +28,16 @@ Dr. Joe Yeong Poh Sheng has been listed as World Top 2% scientist since 2024. He
 
 ### Current Positions
 1.	Director of Immunopathology, Pathology ACP, SingHealth Duke-NUS
-2.	Principal Investigator in Anatomical pathology, Singapore General Hospital
-3.	Senior Principal MLS, Department of Microbiology, Singapore General Hospital
-4.	Group Leader, Institute of Molecular and Cell Biology, A*STAR
-5.	Asst Professor, Pathology Academic Clinical Program, Duke-NUS Medical School
-6.	Visiting Assoc. Professor, Dept. of Surgery, Faculty of Medicine, University of Malaya
-7.	Principal Associate, Cancer Science Institute of Singapore, National University of Singapore
-8.	Executive secretary, Singapore Society of Oncology – Cancer Immunotherapy Consortium
-9.	Education/Diagnostic Co-Lead, SingHealth Duke-NUS Cell Therapy Centre
+2.  Co-Lead of Biomedtech Initiative, Singapore General Hospital
+3.	Principal Investigator in Anatomical pathology, Singapore General Hospital
+4.	Senior Principal MLS, Department of Microbiology, Singapore General Hospital
+5. Program Lead, Proteomics and Immuno Dx, MedTech Cluster, A*STAR
+5.	Group Leader, Institute of Molecular and Cell Biology, A*STAR
+6.	Associate Professor, Pathology Academic Clinical Program, Duke-NUS Medical School
+7.	Visiting Assoc. Professor, Dept. of Surgery, Faculty of Medicine, University of Malaya
+8.	Principal Associate, Cancer Science Institute of Singapore, National University of Singapore
+9.	Executive secretary, Singapore Society of Oncology – Cancer Immunotherapy Consortium
+10.	Education/Diagnostic Co-Lead, SingHealth Duke-NUS Cell Therapy Centre
 
 ### Academic Qualifications
 
@@ -91,7 +93,7 @@ References:
 | 2022 | Top Cited Author 2020-2021, Wiley<br>Featured in Nature News<br>Featured in Nature Podcast |
 | 2023 | Singapore-China government joint innovation call |
 | 2024 | World Immunotherapy Council Asian Chapter, Research Contribution Award<br>MedTech Actuator 2024 Finalist<br>World's Top 2% Scientist |
-| 2025 | World's Top 2% Scientist<br>Featured in Nature cover story |
+| 2025 | Research Award, Chapter of Pathologists, Academy of Medicine Singapore<br>Featured on Nature Cover<br>Featured on The Pathologist<br>Featured on Nature Custom Media<br>Featured in multiple mainstream media including Straits Times<br>Awarded Singapore National Clinician Innovator Award 2025<br>World's Top 2% Scientist |
 
 ### Professional Membership:
 - Co-founder World Immunotherapy Council Asian Chapter
@@ -107,8 +109,9 @@ References:
 - NIH Alliance of Digital Pathology
 - Singapore Biodesign Alumni (Winner of BEP program 2021)
 - Executive Committee Member, Singapore Society of Pathology 
-- Board Member, African & Asian Society of Digital Pathology (ASDP)
+- Member Board of Directors, African & Asian Society of Digital Pathology (ASDP)
 - Board Member, Medical Image Computing and Computer Assisted Intervention (MICCAI) Society
+- Board Member, MICCAI Special Interest Group on Computational Pathology
 - Committee member, American Society of Clinical Oncology (ASCO)
 
 ### Editorship of Journals/Books

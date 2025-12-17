@@ -11,7 +11,7 @@ Our laboratory specializes in:
 - Human experts and AI models in tumor pathology
 - Multi-omics and spatial multi-omics integrative data analysis
 - Biomarker discovery and validation
-- Translational research applications - AIDD, cancer vaccine development
+- Translational research applications - AIDD, cancer vaccine and companion diagnostics assay development
 
 ### Latest News
 

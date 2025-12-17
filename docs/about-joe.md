@@ -31,13 +31,13 @@ Dr. Joe Yeong Poh Sheng has been listed as World Top 2% scientist since 2024. He
 2.  Co-Lead of Biomedtech Initiative, Singapore General Hospital
 3.	Principal Investigator in Anatomical pathology, Singapore General Hospital
 4.	Senior Principal MLS, Department of Microbiology, Singapore General Hospital
-5. Program Lead, Proteomics and Immuno Dx, MedTech Cluster, A*STAR
-5.	Group Leader, Institute of Molecular and Cell Biology, A*STAR
-6.	Associate Professor, Pathology Academic Clinical Program, Duke-NUS Medical School
-7.	Visiting Assoc. Professor, Dept. of Surgery, Faculty of Medicine, University of Malaya
-8.	Principal Associate, Cancer Science Institute of Singapore, National University of Singapore
-9.	Executive secretary, Singapore Society of Oncology – Cancer Immunotherapy Consortium
-10.	Education/Diagnostic Co-Lead, SingHealth Duke-NUS Cell Therapy Centre
+5.	Program Lead, Proteomics and Immuno Dx, MedTech Cluster, A*STAR
+6.	Group Leader, Institute of Molecular and Cell Biology, A*STAR
+7.	Associate Professor, Pathology Academic Clinical Program, Duke-NUS Medical School
+8.	Visiting Assoc. Professor, Dept. of Surgery, Faculty of Medicine, University of Malaya
+9.	Principal Associate, Cancer Science Institute of Singapore, National University of Singapore
+10.	Executive secretary, Singapore Society of Oncology – Cancer Immunotherapy Consortium
+11.	Education/Diagnostic Co-Lead, SingHealth Duke-NUS Cell Therapy Centre
 
 ### Academic Qualifications
 

@@ -134,7 +134,9 @@
   
   <ClientOnly>
     <div id="linkedin-posts-container" style="display: grid; gap: 2rem; margin-top: 2rem;">
-      <!-- LinkedIn posts will be embedded here -->
+      <div style="padding: 2rem; text-align: center; color: #6c757d; background: #f8f9fa; border-radius: 8px;">
+        <p>Loading LinkedIn posts...</p>
+      </div>
     </div>
   </ClientOnly>
 </div>
@@ -159,59 +161,42 @@
   min-height: 400px;
   border-radius: 4px;
 }
+
+.linkedin-error {
+  padding: 2rem;
+  text-align: center;
+  color: #6c757d;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.linkedin-error a {
+  color: #0077b5;
+}
 </style>
 
 <script>
-// LinkedIn Post URLs or Activity IDs
-// Option 1: Use full post URLs (easier)
-// Option 2: Use activity IDs in format: urn:li:activity:ACTIVITY_ID
-//
-// To get a post URL:
-// 1. Visit https://www.linkedin.com/in/joe-yeong/
-// 2. Click on the three dots (...) on a post
-// 3. Select "Copy link to post"
-// 4. Paste the URL here
-//
-// The script will automatically extract the activity ID from the URL
-
 (function() {
-  // Only run in browser environment
   if (typeof window === 'undefined' || typeof document === 'undefined') {
     return;
   }
 
-  const linkedinPosts = [
-    // Add LinkedIn post URLs or activity IDs here (latest 10 posts)
-    // Examples:
-    // 'https://www.linkedin.com/posts/joe-yeong_activity-7123456789012345678-...',
-    // 'urn:li:activity:7123456789012345678',
-  ];
-
-  // Function to extract activity ID from LinkedIn post URL
-  function extractActivityId(urlOrId) {
-    // If it's already in urn format, return as is
-    if (urlOrId.startsWith('urn:li:activity:')) {
-      return urlOrId;
+  function extractActivityId(url) {
+    if (!url) return null;
+    if (url.startsWith('urn:li:activity:')) {
+      return url;
     }
-    
-    // Extract activity ID from URL
-    // LinkedIn URLs can be in formats like:
-    // https://www.linkedin.com/posts/username_activity-ACTIVITY_ID-...
-    // https://www.linkedin.com/feed/update/urn:li:activity:ACTIVITY_ID
-    const urlMatch = urlOrId.match(/activity-(\d+)/);
+    const urlMatch = url.match(/activity-(\d+)/);
     if (urlMatch) {
       return `urn:li:activity:${urlMatch[1]}`;
     }
-    
-    const urnMatch = urlOrId.match(/urn:li:activity:(\d+)/);
+    const urnMatch = url.match(/urn:li:activity:(\d+)/);
     if (urnMatch) {
-      return urlOrId;
+      return url;
     }
-    
     return null;
   }
 
-  // Function to create LinkedIn post embed
   function createLinkedInPostEmbed(activityId) {
     const wrapper = document.createElement('div');
     wrapper.className = 'linkedin-post-wrapper';
@@ -230,40 +215,61 @@
     return wrapper;
   }
 
-  // Embed all posts
-  function embedLinkedInPosts() {
+  async function loadLinkedInPosts() {
     const container = document.getElementById('linkedin-posts-container');
     if (!container) return;
-    
-    if (linkedinPosts.length === 0) {
+
+    try {
+      const response = await fetch('/data/linkedin-posts.json');
+      if (!response.ok) {
+        throw new Error('Failed to load posts data');
+      }
+      
+      const data = await response.json();
+      const posts = data.posts || [];
+      
+      if (posts.length === 0) {
+        container.innerHTML = `
+          <div class="linkedin-error">
+            <p style="margin-bottom: 0.5rem;"><strong>No LinkedIn posts configured yet.</strong></p>
+            <p style="font-size: 0.9rem; margin-top: 0.5rem;">
+              To add posts, edit <code>docs/data/linkedin-posts.json</code> and add post URLs.
+            </p>
+          </div>
+        `;
+        return;
+      }
+      
+      container.innerHTML = '';
+      
+      const maxPosts = data.instructions?.max_posts || 5;
+      const postsToShow = posts.slice(0, maxPosts);
+      
+      postsToShow.forEach(post => {
+        const activityId = extractActivityId(post.url);
+        if (activityId) {
+          const embed = createLinkedInPostEmbed(activityId);
+          container.appendChild(embed);
+        }
+      });
+      
+    } catch (error) {
+      console.error('Error loading LinkedIn posts:', error);
       container.innerHTML = `
-        <div style="padding: 2rem; text-align: center; color: #6c757d; background: #f8f9fa; border-radius: 8px;">
-          <p style="margin-bottom: 0.5rem;"><strong>No LinkedIn posts configured yet.</strong></p>
+        <div class="linkedin-error">
+          <p style="margin-bottom: 0.5rem;"><strong>Unable to load LinkedIn posts.</strong></p>
           <p style="font-size: 0.9rem; margin-top: 0.5rem;">
-            To add posts, visit <a href="https://www.linkedin.com/in/joe-yeong/" target="_blank" style="color: #0077b5;">Joe Yeong's LinkedIn</a>, 
-            copy the post URLs, and add them to the linkedinPosts array in this file.
+            Visit <a href="https://www.linkedin.com/in/joe-yeong/" target="_blank">Joe Yeong's LinkedIn</a> directly.
           </p>
         </div>
       `;
-      return;
     }
-    
-    linkedinPosts.forEach(postUrlOrId => {
-      const activityId = extractActivityId(postUrlOrId);
-      if (activityId) {
-        const embed = createLinkedInPostEmbed(activityId);
-        container.appendChild(embed);
-      } else {
-        console.warn('Invalid LinkedIn post URL or ID:', postUrlOrId);
-      }
-    });
   }
 
-  // Initialize when page loads
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', embedLinkedInPosts);
+    document.addEventListener('DOMContentLoaded', loadLinkedInPosts);
   } else {
-    embedLinkedInPosts();
+    loadLinkedInPosts();
   }
 })();
 </script>

@@ -1,0 +1,23 @@
+{
+  "description": "LinkedIn posts from Joe Yeong to display on the news page. Add post URLs here to update the display.",
+  "instructions": {
+    "how_to_add_posts": [
+      "1. Visit https://www.linkedin.com/in/joe-yeong/",
+      "2. Find a post that Joe Yeong shared (not just liked/reposted)",
+      "3. Click on the post to open it",
+      "4. Copy the URL from the browser address bar",
+      "5. Add the URL to the 'posts' array below",
+      "6. Commit and push the changes"
+    ],
+    "url_format": "https://www.linkedin.com/posts/joe-yeong_...-activity-XXXXXXXXXX-XXXX",
+    "max_posts": 5,
+    "note": "Only original posts (not reposts) will display properly with LinkedIn embeds"
+  },
+  "posts": [
+    {
+      "url": "https://www.linkedin.com/posts/joe-yeong_yearinreview-activity-7407283630991003649-qVBI",
+      "added_date": "2025-12-18",
+      "description": "Year in Review - Bernard A. Fox PhD connection"
+    }
+  ]
+}

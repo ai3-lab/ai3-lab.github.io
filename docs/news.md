@@ -132,15 +132,11 @@
     Follow <a href="https://www.linkedin.com/in/joe-yeong/" target="_blank" style="color: #0077b5; text-decoration: none; font-weight: bold;">Joe Yeong</a> on LinkedIn for the latest updates:
   </p>
   
-  <div id="linkedin-posts-container" style="display: grid; gap: 2rem; margin-top: 2rem;">
-    <!-- LinkedIn posts will be embedded here -->
-    <!-- Instructions: 
-         1. Visit https://www.linkedin.com/in/joe-yeong/
-         2. Click on the three dots (...) on a post
-         3. Select "Embed this post"
-         4. Copy the iframe code and paste it below
-    -->
-  </div>
+  <ClientOnly>
+    <div id="linkedin-posts-container" style="display: grid; gap: 2rem; margin-top: 2rem;">
+      <!-- LinkedIn posts will be embedded here -->
+    </div>
+  </ClientOnly>
 </div>
 
 <style>
@@ -178,90 +174,98 @@
 //
 // The script will automatically extract the activity ID from the URL
 
-const linkedinPosts = [
-  // Add LinkedIn post URLs or activity IDs here (latest 10 posts)
-  // Examples:
-  // 'https://www.linkedin.com/posts/joe-yeong_activity-7123456789012345678-...',
-  // 'urn:li:activity:7123456789012345678',
-];
-
-// Function to extract activity ID from LinkedIn post URL
-function extractActivityId(urlOrId) {
-  // If it's already in urn format, return as is
-  if (urlOrId.startsWith('urn:li:activity:')) {
-    return urlOrId;
-  }
-  
-  // Extract activity ID from URL
-  // LinkedIn URLs can be in formats like:
-  // https://www.linkedin.com/posts/username_activity-ACTIVITY_ID-...
-  // https://www.linkedin.com/feed/update/urn:li:activity:ACTIVITY_ID
-  const urlMatch = urlOrId.match(/activity-(\d+)/);
-  if (urlMatch) {
-    return `urn:li:activity:${urlMatch[1]}`;
-  }
-  
-  const urnMatch = urlOrId.match(/urn:li:activity:(\d+)/);
-  if (urnMatch) {
-    return urlOrId;
-  }
-  
-  return null;
-}
-
-// Function to create LinkedIn post embed
-function createLinkedInPostEmbed(activityId) {
-  const wrapper = document.createElement('div');
-  wrapper.className = 'linkedin-post-wrapper';
-  
-  const iframe = document.createElement('iframe');
-  iframe.src = `https://www.linkedin.com/embed/feed/update/${activityId}`;
-  iframe.height = '400';
-  iframe.width = '100%';
-  iframe.frameBorder = '0';
-  iframe.allow = 'autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share';
-  iframe.allowFullscreen = true;
-  iframe.loading = 'lazy';
-  iframe.title = 'Embedded LinkedIn post';
-  
-  wrapper.appendChild(iframe);
-  return wrapper;
-}
-
-// Embed all posts
-function embedLinkedInPosts() {
-  const container = document.getElementById('linkedin-posts-container');
-  
-  if (linkedinPosts.length === 0) {
-    container.innerHTML = `
-      <div style="padding: 2rem; text-align: center; color: #6c757d; background: #f8f9fa; border-radius: 8px;">
-        <p style="margin-bottom: 0.5rem;"><strong>No LinkedIn posts configured yet.</strong></p>
-        <p style="font-size: 0.9rem; margin-top: 0.5rem;">
-          To add posts, visit <a href="https://www.linkedin.com/in/joe-yeong/" target="_blank" style="color: #0077b5;">Joe Yeong's LinkedIn</a>, 
-          copy the post URLs, and add them to the linkedinPosts array in this file.
-        </p>
-      </div>
-    `;
+(function() {
+  // Only run in browser environment
+  if (typeof window === 'undefined' || typeof document === 'undefined') {
     return;
   }
-  
-  linkedinPosts.forEach(postUrlOrId => {
-    const activityId = extractActivityId(postUrlOrId);
-    if (activityId) {
-      const embed = createLinkedInPostEmbed(activityId);
-      container.appendChild(embed);
-    } else {
-      console.warn('Invalid LinkedIn post URL or ID:', postUrlOrId);
-    }
-  });
-}
 
-// Initialize when page loads
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', embedLinkedInPosts);
-} else {
-  embedLinkedInPosts();
-}
+  const linkedinPosts = [
+    // Add LinkedIn post URLs or activity IDs here (latest 10 posts)
+    // Examples:
+    // 'https://www.linkedin.com/posts/joe-yeong_activity-7123456789012345678-...',
+    // 'urn:li:activity:7123456789012345678',
+  ];
+
+  // Function to extract activity ID from LinkedIn post URL
+  function extractActivityId(urlOrId) {
+    // If it's already in urn format, return as is
+    if (urlOrId.startsWith('urn:li:activity:')) {
+      return urlOrId;
+    }
+    
+    // Extract activity ID from URL
+    // LinkedIn URLs can be in formats like:
+    // https://www.linkedin.com/posts/username_activity-ACTIVITY_ID-...
+    // https://www.linkedin.com/feed/update/urn:li:activity:ACTIVITY_ID
+    const urlMatch = urlOrId.match(/activity-(\d+)/);
+    if (urlMatch) {
+      return `urn:li:activity:${urlMatch[1]}`;
+    }
+    
+    const urnMatch = urlOrId.match(/urn:li:activity:(\d+)/);
+    if (urnMatch) {
+      return urlOrId;
+    }
+    
+    return null;
+  }
+
+  // Function to create LinkedIn post embed
+  function createLinkedInPostEmbed(activityId) {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'linkedin-post-wrapper';
+    
+    const iframe = document.createElement('iframe');
+    iframe.src = `https://www.linkedin.com/embed/feed/update/${activityId}`;
+    iframe.height = '400';
+    iframe.width = '100%';
+    iframe.frameBorder = '0';
+    iframe.allow = 'autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share';
+    iframe.allowFullscreen = true;
+    iframe.loading = 'lazy';
+    iframe.title = 'Embedded LinkedIn post';
+    
+    wrapper.appendChild(iframe);
+    return wrapper;
+  }
+
+  // Embed all posts
+  function embedLinkedInPosts() {
+    const container = document.getElementById('linkedin-posts-container');
+    if (!container) return;
+    
+    if (linkedinPosts.length === 0) {
+      container.innerHTML = `
+        <div style="padding: 2rem; text-align: center; color: #6c757d; background: #f8f9fa; border-radius: 8px;">
+          <p style="margin-bottom: 0.5rem;"><strong>No LinkedIn posts configured yet.</strong></p>
+          <p style="font-size: 0.9rem; margin-top: 0.5rem;">
+            To add posts, visit <a href="https://www.linkedin.com/in/joe-yeong/" target="_blank" style="color: #0077b5;">Joe Yeong's LinkedIn</a>, 
+            copy the post URLs, and add them to the linkedinPosts array in this file.
+          </p>
+        </div>
+      `;
+      return;
+    }
+    
+    linkedinPosts.forEach(postUrlOrId => {
+      const activityId = extractActivityId(postUrlOrId);
+      if (activityId) {
+        const embed = createLinkedInPostEmbed(activityId);
+        container.appendChild(embed);
+      } else {
+        console.warn('Invalid LinkedIn post URL or ID:', postUrlOrId);
+      }
+    });
+  }
+
+  // Initialize when page loads
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', embedLinkedInPosts);
+  } else {
+    embedLinkedInPosts();
+  }
+})();
 </script>
 
 ---

@@ -132,95 +132,73 @@
 
 </div>
 
-## Research Scientists
-
-<div class="team-grid">
-
-<div class="member-card">
-<div class="member-avatar">
-<div class="member-placeholder">YW</div>
-</div>
-<div class="member-name">WU Yang, PhD</div>
-<div class="member-role">Research Scientist</div>
-<div class="member-research">Single-cell transcriptomics, Spatial transcriptomics, spatial proteogenomics</div>
-<div class="social-links">
-<a href="https://www.linkedin.com/in/yang-wu-59306283/" target="_blank" title="LinkedIn">
-<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
-</a>
-<a href="https://orcid.org/0000-0002-1837-8330" target="_blank" title="ORCID">
-<img src="/images/social/orcid-icon.svg" alt="ORCID" />
-</a>
-<a href="mailto:wu_yang@a-star.edu.sg" target="_blank" title="Email">
-<img src="/images/social/email-icon.svg" alt="Email" />
-</a>
-</div>
-</div>
-
-<div class="member-card">
-<div class="member-avatar">
-<div class="member-placeholder">RF</div>
-</div>
-<div class="member-name">Rachel Elizabeth Ann FINCHAM, PhD</div>
-<div class="member-role">Research Scientist</div>
-<div class="member-research">AI research and computational analysis</div>
-<div class="social-links">
-<a href="https://www.linkedin.com/in/rachel-fincham/" target="_blank" title="LinkedIn">
-<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
-</a>
-<a href="https://orcid.org/0000-0002-4699-5002" target="_blank" title="ORCID">
-<img src="/images/social/orcid-icon.svg" alt="ORCID" />
-</a>
-<a href="mailto:fincham.rachel.e.a@sgh.com.sg" target="_blank" title="Email">
-<img src="/images/social/email-icon.svg" alt="Email" />
-</a>
-</div>
-</div>
-
-<div class="member-card">
-<div class="member-avatar">
-<img src="/images/team/parthiban-periasamy.jpg" alt="Parthiban PERIASAMY" />
-</div>
-<div class="member-name">Parthiban PERIASAMY, PhD</div>
-<div class="member-role">Research Scientist</div>
-<div class="member-research">Proteogenomics & Mass Spectrometry, Multi-Omics Integration, Computational Precision Oncology</div>
-<div class="social-links">
-<a href="https://www.linkedin.com/in/parthiban-periasamy/" target="_blank" title="LinkedIn">
-<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
-</a>
-<a href="https://www.researchgate.net/profile/Parthiban-Periasamy" target="_blank" title="ResearchGate">
-<img src="/images/social/researchgate-icon.svg" alt="ResearchGate" />
-</a>
-<a href="https://scholar.google.com/citations?user=OEZYXTgAAAAJ" target="_blank" title="Google Scholar">
-<img src="/images/social/scholar-icon.svg" alt="Google Scholar" />
-</a>
-<a href="mailto:parthiban_periasamy@a-star.edu.sg" target="_blank" title="Email">
-<img src="/images/social/email-icon.svg" alt="Email" />
-</a>
-</div>
-</div>
-
-<div class="member-card">
-<div class="member-avatar">
-<div class="member-placeholder">YJ</div>
-</div>
-<div class="member-name">YE Jiangfeng, MMed, PhD</div>
-<div class="member-role">Research Scientist</div>
-<div class="member-research">Biostatistics, Public Health</div>
-<div class="social-links">
-<a href="https://www.linkedin.com/in/jiangfeng-ye-5b59134a/" target="_blank" title="LinkedIn">
-<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
-</a>
-<a href="mailto:ye_jf@nus.edu.sg" target="_blank" title="Email">
-<img src="/images/social/email-icon.svg" alt="Email" />
-</a>
-</div>
-</div>
-
-</div>
-
 ## Research Officers
 
 <div class="team-grid">
+
+<div class="member-card">
+<div class="member-avatar">
+<div class="member-placeholder">LX</div>
+</div>
+<div class="member-name">LIM Xinru, BSc</div>
+<div class="member-role">Senior Research Officer</div>
+<div class="member-research">Lab Manager, Research Administration, Ageing and immunology studies</div>
+<div class="social-links">
+<a href="https://www.linkedin.com/in/xinru-l-2435a6138/" target="_blank" title="LinkedIn">
+<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
+</a>
+<a href="https://orcid.org/0009-0005-4890-1478" target="_blank" title="ORCID">
+<img src="/images/social/orcid-icon.svg" alt="ORCID" />
+</a>
+<a href="https://www.researchgate.net/profile/Xinru_Lim" target="_blank" title="ResearchGate">
+<img src="/images/social/researchgate-icon.svg" alt="ResearchGate" />
+</a>
+<a href="mailto:limxr@a-star.edu.sg" target="_blank" title="Email">
+<img src="/images/social/email-icon.svg" alt="Email" />
+</a>
+</div>
+</div>
+
+
+<div class="member-card">
+<div class="member-avatar">
+<div class="member-placeholder">CJ</div>
+</div>
+<div class="member-name">Craig Ryan Cecil JOSEPH, BSc (Biology), BSc (Psy)</div>
+<div class="member-role">Senior Research Officer</div>
+<div class="member-research">Service Platform Manager, Histopathology, Spatial Biology</div>
+<div class="social-links">
+<a href="https://www.linkedin.com/in/craig-ryan-cecil-joseph/" target="_blank" title="LinkedIn">
+<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
+</a>
+<a href="https://orcid.org/0009-0004-5326-9692" target="_blank" title="ORCID">
+<img src="/images/social/orcid-icon.svg" alt="ORCID" />
+</a>
+<a href="mailto:craig_joseph@a-star.edu.sg" target="_blank" title="Email">
+<img src="/images/social/email-icon.svg" alt="Email" />
+</a>
+</div>
+</div>
+
+<div class="member-card">
+<div class="member-avatar">
+<div class="member-placeholder">FW</div>
+</div>
+<div class="member-name">Felicia WEE, BSc</div>
+<div class="member-role">Senior Research Officer</div>
+<div class="member-research">Histopathology, AI-driven histopathology, spatial proteomics analysis</div>
+<div class="social-links">
+<a href="https://www.linkedin.com/in/felicia-wee-b284b6156/" target="_blank" title="LinkedIn">
+<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
+</a>
+<a href="https://orcid.org/0009-0004-7624-3751" target="_blank" title="ORCID">
+<img src="/images/social/orcid-icon.svg" alt="ORCID" />
+</a>
+<a href="mailto:feliwee@gmail.com" target="_blank" title="Email">
+<img src="/images/social/email-icon.svg" alt="Email" />
+</a>
+</div>
+</div>
 
 <div class="member-card">
 <div class="member-avatar">
@@ -290,69 +268,6 @@
 
 <div class="member-card">
 <div class="member-avatar">
-<div class="member-placeholder">LX</div>
-</div>
-<div class="member-name">LIM Xinru, BSc</div>
-<div class="member-role">Senior Research Officer</div>
-<div class="member-research">Lab Manager, Research Administration, Ageing and immunology studies</div>
-<div class="social-links">
-<a href="https://www.linkedin.com/in/xinru-l-2435a6138/" target="_blank" title="LinkedIn">
-<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
-</a>
-<a href="https://orcid.org/0009-0005-4890-1478" target="_blank" title="ORCID">
-<img src="/images/social/orcid-icon.svg" alt="ORCID" />
-</a>
-<a href="https://www.researchgate.net/profile/Xinru_Lim" target="_blank" title="ResearchGate">
-<img src="/images/social/researchgate-icon.svg" alt="ResearchGate" />
-</a>
-<a href="mailto:limxr@a-star.edu.sg" target="_blank" title="Email">
-<img src="/images/social/email-icon.svg" alt="Email" />
-</a>
-</div>
-</div>
-
-<div class="member-card">
-<div class="member-avatar">
-<div class="member-placeholder">CJ</div>
-</div>
-<div class="member-name">Craig Ryan Cecil JOSEPH, BSc (Biology), BSc (Psy)</div>
-<div class="member-role">Senior Research Officer</div>
-<div class="member-research">Service Platform Manager, Histopathology, Spatial Biology</div>
-<div class="social-links">
-<a href="https://www.linkedin.com/in/craig-ryan-cecil-joseph/" target="_blank" title="LinkedIn">
-<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
-</a>
-<a href="https://orcid.org/0009-0004-5326-9692" target="_blank" title="ORCID">
-<img src="/images/social/orcid-icon.svg" alt="ORCID" />
-</a>
-<a href="mailto:craig_joseph@a-star.edu.sg" target="_blank" title="Email">
-<img src="/images/social/email-icon.svg" alt="Email" />
-</a>
-</div>
-</div>
-
-<div class="member-card">
-<div class="member-avatar">
-<div class="member-placeholder">FW</div>
-</div>
-<div class="member-name">Felicia WEE, BSc</div>
-<div class="member-role">Senior Research Officer</div>
-<div class="member-research">Histopathology, AI-driven histopathology, spatial proteomics analysis</div>
-<div class="social-links">
-<a href="https://www.linkedin.com/in/felicia-wee-b284b6156/" target="_blank" title="LinkedIn">
-<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
-</a>
-<a href="https://orcid.org/0009-0004-7624-3751" target="_blank" title="ORCID">
-<img src="/images/social/orcid-icon.svg" alt="ORCID" />
-</a>
-<a href="mailto:feliwee@gmail.com" target="_blank" title="Email">
-<img src="/images/social/email-icon.svg" alt="Email" />
-</a>
-</div>
-</div>
-
-<div class="member-card">
-<div class="member-avatar">
 <img src="/images/team/li-ruisi.jpg" alt="LI Ruisi" />
 </div>
 <div class="member-name">LI Ruisi, MSc</div>
@@ -394,6 +309,92 @@
 <div class="member-research">Molecular and Cellular Biology</div>
 <div class="social-links">
 <a href="mailto:ng_kai_soon@a-star.edu.sg" target="_blank" title="Email">
+<img src="/images/social/email-icon.svg" alt="Email" />
+</a>
+</div>
+</div>
+
+</div>
+
+## Research Scientists
+
+<div class="team-grid">
+
+<div class="member-card">
+<div class="member-avatar">
+<img src="/images/team/parthiban-periasamy.jpg" alt="Parthiban PERIASAMY" />
+</div>
+<div class="member-name">Parthiban PERIASAMY, PhD</div>
+<div class="member-role">Research Scientist</div>
+<div class="member-research">Proteogenomics & Mass Spectrometry, Multi-Omics Integration, Computational Precision Oncology</div>
+<div class="social-links">
+<a href="https://www.linkedin.com/in/parthiban-periasamy/" target="_blank" title="LinkedIn">
+<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
+</a>
+<a href="https://www.researchgate.net/profile/Parthiban-Periasamy" target="_blank" title="ResearchGate">
+<img src="/images/social/researchgate-icon.svg" alt="ResearchGate" />
+</a>
+<a href="https://scholar.google.com/citations?user=OEZYXTgAAAAJ" target="_blank" title="Google Scholar">
+<img src="/images/social/scholar-icon.svg" alt="Google Scholar" />
+</a>
+<a href="mailto:parthiban_periasamy@a-star.edu.sg" target="_blank" title="Email">
+<img src="/images/social/email-icon.svg" alt="Email" />
+</a>
+</div>
+</div>
+
+<div class="member-card">
+<div class="member-avatar">
+<div class="member-placeholder">YJ</div>
+</div>
+<div class="member-name">YE Jiangfeng, MMed, PhD</div>
+<div class="member-role">Research Scientist</div>
+<div class="member-research">Biostatistics, Public Health</div>
+<div class="social-links">
+<a href="https://www.linkedin.com/in/jiangfeng-ye-5b59134a/" target="_blank" title="LinkedIn">
+<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
+</a>
+<a href="mailto:ye_jf@nus.edu.sg" target="_blank" title="Email">
+<img src="/images/social/email-icon.svg" alt="Email" />
+</a>
+</div>
+</div>
+
+<div class="member-card">
+<div class="member-avatar">
+<div class="member-placeholder">YW</div>
+</div>
+<div class="member-name">WU Yang, PhD</div>
+<div class="member-role">Research Scientist</div>
+<div class="member-research">Single-cell transcriptomics, Spatial transcriptomics, spatial proteogenomics</div>
+<div class="social-links">
+<a href="https://www.linkedin.com/in/yang-wu-59306283/" target="_blank" title="LinkedIn">
+<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
+</a>
+<a href="https://orcid.org/0000-0002-1837-8330" target="_blank" title="ORCID">
+<img src="/images/social/orcid-icon.svg" alt="ORCID" />
+</a>
+<a href="mailto:wu_yang@a-star.edu.sg" target="_blank" title="Email">
+<img src="/images/social/email-icon.svg" alt="Email" />
+</a>
+</div>
+</div>
+
+<div class="member-card">
+<div class="member-avatar">
+<div class="member-placeholder">RF</div>
+</div>
+<div class="member-name">Rachel Elizabeth Ann FINCHAM, PhD</div>
+<div class="member-role">Research Scientist</div>
+<div class="member-research">AI research and computational analysis</div>
+<div class="social-links">
+<a href="https://www.linkedin.com/in/rachel-fincham/" target="_blank" title="LinkedIn">
+<img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
+</a>
+<a href="https://orcid.org/0000-0002-4699-5002" target="_blank" title="ORCID">
+<img src="/images/social/orcid-icon.svg" alt="ORCID" />
+</a>
+<a href="mailto:fincham.rachel.e.a@sgh.com.sg" target="_blank" title="Email">
 <img src="/images/social/email-icon.svg" alt="Email" />
 </a>
 </div>

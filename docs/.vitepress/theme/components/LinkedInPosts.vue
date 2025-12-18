@@ -27,6 +27,13 @@
           loading="lazy"
           title="Embedded LinkedIn post"
         ></iframe>
+        <div class="linkedin-post-fallback">
+          <a :href="post.url" target="_blank" rel="noopener noreferrer">
+            <span class="linkedin-icon">in</span>
+            View this post on LinkedIn
+          </a>
+          <span v-if="post.description" class="post-description">{{ post.description }}</span>
+        </div>
       </div>
     </div>
   </div>
@@ -127,6 +134,55 @@ onMounted(() => {
 
 .linkedin-error a {
   color: #0077b5;
+}
+
+.linkedin-post-fallback {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.linkedin-post-fallback a {
+  color: #0077b5;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.linkedin-post-fallback a:hover {
+  text-decoration: underline;
+}
+
+.linkedin-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: #0077b5;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.post-description {
+  display: block;
+  margin-top: 0.5rem;
+  color: #6c757d;
+  font-size: 0.85rem;
+}
+
+.dark .linkedin-post-fallback {
+  border-top-color: #444;
+}
+
+.dark .post-description {
+  color: #a0a0a0;
 }
 
 .dark .linkedin-post-wrapper {

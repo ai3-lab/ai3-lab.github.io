@@ -142,7 +142,7 @@
 </div>
 <div class="member-name">WU Yang, PhD</div>
 <div class="member-role">Research Scientist</div>
-<div class="member-research">Single-cell transcriptomics, Spatial transcriptomics, spatial proteomics</div>
+<div class="member-research">Single-cell transcriptomics, Spatial transcriptomics, spatial proteogenomics</div>
 <div class="social-links">
 <a href="https://www.linkedin.com/in/yang-wu-59306283/" target="_blank" title="LinkedIn">
 <img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />
@@ -178,11 +178,11 @@
 
 <div class="member-card">
 <div class="member-avatar">
-<div class="member-placeholder">PP</div>
+<img src="/images/team/parthiban-periasamy.jpg" alt="Parthiban PERIASAMY" />
 </div>
 <div class="member-name">Parthiban PERIASAMY, PhD</div>
 <div class="member-role">Research Scientist</div>
-<div class="member-research">Proteomics wet-lab and bioinformatic analysis</div>
+<div class="member-research">Proteogenomics & Mass Spectrometry, Multi-Omics Integration, Computational Precision Oncology</div>
 <div class="social-links">
 <a href="https://www.linkedin.com/in/parthiban-periasamy/" target="_blank" title="LinkedIn">
 <img src="/images/social/linkedin-icon.svg" alt="LinkedIn" />

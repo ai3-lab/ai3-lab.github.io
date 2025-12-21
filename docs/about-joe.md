@@ -117,3 +117,5 @@ References:
 - Single Cell Spatial Analysis Program (SCSAP) at University of Michigan
 
 ---
+
+_For Prof Joe YEONG's innovations, IPs and professional memberships, please go to [innovation](/innovation) page._

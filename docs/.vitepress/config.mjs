@@ -7,9 +7,9 @@ export default {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About Joe', link: '/about-joe' },
+      { text: 'Innovation', link: '/innovation' },
       { text: 'Team', link: '/team' },
       { text: 'Research', link: '/research' },
-      { text: 'Innovation', link: '/innovation' },
       { text: 'News', link: '/news' },
       { text: 'Platforms', link: '/platforms' },
       { text: 'Contact', link: '/contact' }
@@ -20,9 +20,9 @@ export default {
         items: [
           { text: 'Home', link: '/' },
           { text: 'About Joe', link: '/about-joe' },
+          { text: 'Innovation', link: '/innovation' },
           { text: 'Team', link: '/team' },
           { text: 'Research', link: '/research' },
-          { text: 'Innovation', link: '/innovation' },
           { text: 'News', link: '/news' },
           { text: 'Platforms', link: '/platforms' },
           { text: 'Contact', link: '/contact' }

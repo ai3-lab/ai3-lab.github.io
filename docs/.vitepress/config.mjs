@@ -9,6 +9,7 @@ export default {
       { text: 'About Joe', link: '/about-joe' },
       { text: 'Team', link: '/team' },
       { text: 'Research', link: '/research' },
+      { text: 'Innovation', link: '/innovation' },
       { text: 'News', link: '/news' },
       { text: 'Platforms', link: '/platforms' },
       { text: 'Contact', link: '/contact' }
@@ -21,6 +22,7 @@ export default {
           { text: 'About Joe', link: '/about-joe' },
           { text: 'Team', link: '/team' },
           { text: 'Research', link: '/research' },
+          { text: 'Innovation', link: '/innovation' },
           { text: 'News', link: '/news' },
           { text: 'Platforms', link: '/platforms' },
           { text: 'Contact', link: '/contact' }
@@ -28,8 +30,6 @@ export default {
       }
     ],
 
-    logo: '/logo.png',
-    
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ai3-lab/ai3-lab.github.io' }
     ],

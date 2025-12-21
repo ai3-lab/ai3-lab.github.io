@@ -1,8 +1,6 @@
-And u can make a new page called Innovation & put:
+# Innovation
 
----
-
-### Innovations & IPs:
+## Innovations & IPs
 
 - Automated staining protocol for seven-colour immunofluorescence of human and animal tissue sections for diagnostic and prognostic use (TEC-18-96)
 - PD-L1 monoclonal antibody as a diagnostic tool to predict anti-PD-L1 and anti-PD-1 immunotherapy response in cancer (IMC/Z/12757)
@@ -28,8 +26,7 @@ And u can make a new page called Innovation & put:
 
 ---
 
-
-### Professional Membership:
+## Professional Membership
 
 - **Co-founder** World Immunotherapy Council Asian Chapter
 - **Co-Chair** World Immunotherapy Council 2019, 2023, 2025

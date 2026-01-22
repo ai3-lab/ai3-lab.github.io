@@ -42,9 +42,18 @@ We typically respond to inquiries within 2-3 business days.
 
 ## Directions
 
-*[Google Maps widget will be embedded into the webpage]*
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7971457345678!2d103.7931908!3d1.3029751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a46a92f0011%3A0xb3b3257e0c6691a4!2sProteos%2C%2061%20Biopolis%20Dr%2C%20Singapore%20138673!5e0!3m2!1sen!2ssg!4v1700000000000!5m2!1sen!2ssg"
+  width="100%"
+  height="400"
+  style="border:0; border-radius: 8px;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+  title="Google Maps - Proteos, 61 Biopolis Drive, Singapore">
+</iframe>
 
-*[Directions to the laboratory location will be provided]*
+**Address:** Proteos, 61 Biopolis Drive, Singapore 138673 (Plus Code: 8Q3V+57)
 
 ### Public Transportation
 

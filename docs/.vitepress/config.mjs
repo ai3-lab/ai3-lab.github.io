@@ -2,6 +2,13 @@ export default {
   title: 'Joe Yeong Lab',
   description: 'Laboratory of Joe Poh Sheng YEONG - Spatial Omics Research',
   base: '/',
+
+  vite: {
+    server: {
+      host: '0.0.0.0',
+      allowedHosts: true,
+    }
+  },
   
   themeConfig: {
     nav: [

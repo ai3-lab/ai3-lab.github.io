@@ -13,5 +13,9 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.6.4"
+  },
+  "overrides": {
+    "preact": "10.27.3",
+    "rollup": "4.59.0"
   }
 }

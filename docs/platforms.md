@@ -1,3 +1,8 @@
+---
+title: Research Platforms
+description: Overview of the laboratory's spatial transcriptomics, computational biology, and multi-omics integration platforms.
+---
+
 # Research Platforms
 
 ## Laboratory Platforms
@@ -63,7 +68,3 @@ For information about accessing our research platforms or potential collaboratio
 - **Method Development**: Collaborative development of new computational methods
 - **Training**: Workshops and training sessions on platform usage
 - **Consultation**: Expert consultation on experimental design and data interpretation
-
----
-
-*Platform descriptions and capabilities will be updated as our research infrastructure evolves.*

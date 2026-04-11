@@ -1,3 +1,8 @@
+---
+title: Contact Us
+description: Contact information, office location, and directions for the Joe Yeong Laboratory at A*STAR Proteos.
+---
+
 # Contact Us
 
 ## Laboratory Information
@@ -65,7 +70,7 @@ Exit D (Biopolis), Buona Vista MRT station
 
 Stay connected with our laboratory through our online channels:
 
-- **Laboratory Website**: [Current website]
+- **Laboratory Website**: [ai3-lab.github.io](https://ai3-lab.github.io/)
 - **Institutional Profile**: [A*STAR Profile](https://research.a-star.edu.sg/researcher/joe-yeong/)
 - **Professional Networks**: [LinkedIn](https://www.linkedin.com/in/joe-yeong/), [ResearchGate](https://www.researchgate.net/profile/Joe-Yeong-2)
 - **Academic Profiles**: [Google Scholar](https://scholar.google.com/citations?user=zSDQ4D8AAAAJ), [ORCID](https://orcid.org/0000-0002-6674-7153)

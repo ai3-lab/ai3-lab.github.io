@@ -2,7 +2,6 @@
   "name": "jy-lab-website",
   "version": "1.0.0",
   "description": "Lab Website for Joe Poh Sheng YEONG's lab",
-  "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",

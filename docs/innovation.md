@@ -1,3 +1,8 @@
+---
+title: Innovation & IPs
+description: Innovations, intellectual property, and professional memberships of Prof. Joe Poh Sheng YEONG.
+---
+
 # Innovation
 
 ## Innovations & IPs

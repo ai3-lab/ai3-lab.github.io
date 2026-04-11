@@ -45,6 +45,10 @@ A VitePress-powered static documentation website for the AI in Immunology Labora
 - Build command: `npm run docs:build`
 - Output directory: `docs/.vitepress/dist`
 
+## Git Author
+- **Username**: Wu, Yang
+- **Email**: 32476254+WuyangFF95@users.noreply.github.com
+
 ## Notes
 - All images are in `docs/public/` and referenced with absolute paths (e.g., `/images/team/joe-yeong.jpg`)
 - CSS uses VitePress CSS variables (e.g., `var(--vp-c-bg-soft)`, `var(--vp-c-text-1)`) for dark mode support

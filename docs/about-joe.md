@@ -9,7 +9,7 @@ description: Profile of Prof. Joe Poh Sheng YEONG — Principal Investigator, im
 
 <div class="social-buttons">
   <a href="https://research.a-star.edu.sg/researcher/joe-yeong/" target="_blank" class="social-btn">
-    <img src="/images/social/astar-icon.svg" alt="A*STAR Profile" />
+    <img src="/images/social/astar-icon.png" alt="A*STAR Profile" />
   </a>
   <a href="https://www.linkedin.com/in/joe-yeong/" target="_blank" class="social-btn">
     <img src="/images/social/linkedin-icon.svg" alt="LinkedIn Profile" />
